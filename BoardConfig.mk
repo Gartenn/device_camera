@@ -11,9 +11,3 @@ include vendor/xiaomi/peridot-miuicamera/BoardConfigVendor.mk
 
 # MiuiCamera
 CAMERA_PACKAGE_NAME := com.android.camera
-
-# Properties
-TARGET_SYSTEM_PROP += $(MIUICAMERA_PATH)/system.prop
-
-# Sepolicy
-SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(MIUICAMERA_PATH)/sepolicy/private
